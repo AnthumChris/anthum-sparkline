@@ -19,8 +19,8 @@ public class SparklineExampleServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
 
-  private final int SPARKLINES_DEFAULT = 500;
-  private final int SPARKLINES_MAX = 5000;
+  private final int SPARKLINES_DEFAULT = 100;
+  private final int SPARKLINES_MAX = 500;
 
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     // chart options to pass
