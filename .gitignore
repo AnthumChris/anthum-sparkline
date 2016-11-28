@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# IntelliJ files
+.idea
+/out
+/*.iml
+
+
+# Compiled assets
+*/WEB-INF/classes

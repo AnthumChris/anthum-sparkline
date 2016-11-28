@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+  <display-name>anthum-sparkline</display-name>
+  <description>
+	Anthum Sparklines
+  </description>
+
+	<servlet>
+		<servlet-name>com.anthum.sparkline.servlet.SparklineExampleServlet</servlet-name>
+		<servlet-class>com.anthum.sparkline.servlet.SparklineExampleServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>com.anthum.sparkline.servlet.SparklineExampleServlet</servlet-name>
+		<url-pattern>/sparkline.png</url-pattern>
+	</servlet-mapping>
+</web-app>
