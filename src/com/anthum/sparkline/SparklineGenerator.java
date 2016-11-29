@@ -62,6 +62,10 @@ public abstract class SparklineGenerator {
     pngEncoder.encode(image, out);
     
     log("Generated PNG: "+(System.currentTimeMillis()-start)+"ms");
+
+    // Write to Mac Desktop if needed
+    //javax.imageio.ImageIO.write(image, "png", new java.io.file.File(System.getProperty("user.home")+"/Desktop/anthum-sparkline-test.png"));
+    
     return out;
   }
 

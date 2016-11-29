@@ -49,13 +49,9 @@ public class SparklineUtil {
         val = normalizedData[c][i];
         valPct = (double)(val-valMin)/valSpread;
         normalizedData[c][i] = (int)Math.round((valPct*heightSpread)); // get percentage and round to an int
-//        log("normalized: "+val+' '+normalizedData[c][i]+" "+valPct+" of "+heightSpread);
       }
-//      log("original:   "+Arrays.toString(chartData[c]));
-//      log("normalized: "+Arrays.toString(normalizedData[c]));
     }
 
     return normalizedData;
   }
-
 }
