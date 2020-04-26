@@ -5,11 +5,11 @@ This app generates a PNG sprite with sparkline graphs.  In certain situations, a
 Examples using random data are below, and you would implement your own sparklines by interfacing with `SparklineGenerator.createPNG()` and passing your data and options to it. 
 
 #### Total Sparklines\*
-https://demo.anthum.com/sparkline.png?total=10<br />
-https://demo.anthum.com/sparkline.png?total=11<br />
-https://demo.anthum.com/sparkline.png?total=100
+https://demo.anthum.com/sparkline.png?bg=cccccc&total=10<br />
+https://demo.anthum.com/sparkline.png?bg=cccccc&total=11<br />
+https://demo.anthum.com/sparkline.png?bg=cccccc&total=100
 
-<sup>\* Image background is transparent (barely visible in latest Chrome)</sup>
+<sup>\* Background color specified because it's transparent otherwise (barely visible in latest Chrome)</sup>
 
 #### Line Color
 https://demo.anthum.com/sparkline.png?color=aa0000
